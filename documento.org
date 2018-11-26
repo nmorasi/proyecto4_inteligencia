@@ -1,0 +1,13 @@
+** que son las redes neuronales 
+** neuronas 
+** estructura de las redes neuronales convoluconales
+** caracteristicas 
+** cual es la diferencia con las redes profundas 
+
+* realizacion del proyecto 
+
+* bibliografia
+
+* por hacer 
+  
+* que significa relu 
