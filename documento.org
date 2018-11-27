@@ -1,6 +1,14 @@
 ** que son las redes neuronales 
+
 ** neuronas 
+   la estructura de una neurona es como sigue: 
+   donde ... funcion de activacion ... 
+   sobrepasa el umbral entonces se dispara 
 ** estructura de las redes neuronales convoluconales
+   las redes neuronales convolucionales se pueden encadenar para 
+   que cada capa reconozca caracteristicas mas abstractas
+   que la capa anterior. 
+
 ** caracteristicas 
 ** cual es la diferencia con las redes profundas 
 
@@ -11,3 +19,51 @@
 * por hacer 
   
 * que significa relu 
+  funcion de activacion 
+  la funcion es f(x) = max(0,x)
+
+* funcion softmax 
+  comprimir un vector dimensional de valores arbitrarios 
+  en un vector con entradas con valores reales en el rango de [0,1]
+  
+* problema 
+
+* propuesta de la solucion
+ 
+* sin organizar 
+   muchas copias identicas de la misma neurona
+   mantienen los parametros muy pequenos 
+   lear a neuron one and use it in many places 
+   we care a lot about local properties of the data 
+   certain features to a fully conected layer F 
+   interweaved with pooling layers 
+   we dont care precise point in time ... que en nuestro 
+   caso si slightly a la derecha o a la izquierda no importa
+   if una caracteristica estuvo presente en la capa anterior 
+   pero no dice precisamente donde.
+   make us invariant to some very small transformations 
+   of the data
+   down to a pixel it's enough to know where it is to within 
+   a few pixels 
+   A is a bunch of neurons in parallel , that all get the same 
+   inputs and compute different features 
+
+   conectadas localmente 
+   A diferencia 
+   de las redes neuronales clasicas en las cuales se conectan 
+   todas las neuronas de una capa con todas las neuronas de 
+   las capas adyacentes. Las redes convolucionales se aprovechan 
+   de la estructura del espacio conectando areas de la capa 
+   a una neurona en particular de forma que la neurona aprenda 
+   a codificar la caracteristica local de esa region.
+   sliding the filter over the image. 
+
+   padding es el relleno 
+* results of convutional neural networks 
+
+
+   
+
+
+* pooling 
+   
